@@ -42,6 +42,13 @@
   padding: 20px;
   text-align: center; /* Center-aligns text inside text-content */
 }
+/* 為每個區塊添加底部邊框 */
+.education, .homework-list, .favorite-music {
+  border-bottom: 2px solid #ccc; /* 底部的線條樣式 */
+  padding-bottom: 20px; /* 與內容間距 */
+  margin-bottom: 20px; /* 與下一個區塊的間距 */
+}
+
 
 .nccu-logo {
   width: 80px;
