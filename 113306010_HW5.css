@@ -67,26 +67,24 @@
 
 .education-item {
   display: flex;
-  align-items: flex-start; /* 時間和描述頂部對齊 */
+  align-items: flex-start; /* 頂部對齊 */
   margin-bottom: 15px;
 }
 
 .year {
-  width: 80px; /* 固定左側欄位寬度 */
+  width: 100px; /* 左側時間欄的寬度，您可以調整 */
   font-weight: bold;
-  text-align: right; /* 時間靠右對齊 */
+  text-align: right; /* 讓時間靠右對齊 */
   margin-right: 15px;
-  line-height: 1.5;
 }
 
 .details {
-  flex-grow: 1; /* 右側描述填滿剩餘空間 */
+  flex-grow: 1; /* 右側描述欄自動填滿剩餘空間 */
   line-height: 1.5;
 }
 
 .details strong {
   font-weight: bold;
-  display: block;
 }
 
 
