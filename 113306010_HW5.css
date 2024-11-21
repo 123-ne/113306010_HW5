@@ -41,13 +41,32 @@
 /* Text Content */
 .text-content {
   padding: 20px;
-  text-align: center; /* Center-aligns text inside text-content */
+  text-align: center;
+  gap:20px /* Center-aligns text inside text-content */
 }
+
 /* 為每個區塊添加底部邊框 */
 .education, .homework-list, .favorite-music {
   border-bottom: 2px solid #ccc; /* 底部的線條樣式 */
   padding-bottom: 20px; /* 與內容間距 */
   margin-bottom: 20px; /* 與下一個區塊的間距 */
+}
+/* Education Section */
+.education-list {
+  list-style: none; /* 移除項目前的圓點 */
+  padding: 0; /* 移除內邊距 */
+  margin: 0; /* 移除外邊距 */
+}
+
+.education-list li {
+  display: flex;
+  justify-content: space-between; /* 讓年份和描述分開對齊 */
+  margin-bottom: 10px; /* 增加每項的間距 */
+}
+
+.education-list .year {
+  font-weight: bold; /* 讓年份部分更突出 */
+  margin-right: 10px; /* 增加年份與描述間的間距 */
 }
 
 
