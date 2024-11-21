@@ -30,12 +30,11 @@
 
 /* Personal Photo */
 .personal-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* Makes it circular */
-  margin-top: 20px;
-  object-fit: cover; /* Ensures the image fits within the circle */
-}
+  width: 100%; /* 寬度占滿左側面板 */
+  height: 50%; /* 高度占左側面板的一半 */
+  object-fit: cover; /* 確保圖片完整填充框架 */
+  margin: 0; /* 去除 margin，避免多餘空間 */
+  border-radius: 0; /* 取消圓角，保持長方形 */
 
 /* Text Content */
 .text-content {
