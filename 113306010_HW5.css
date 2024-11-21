@@ -53,7 +53,7 @@
   padding-bottom: 20px; /* 與內容間距 */
   margin-bottom: 20px; /* 與下一個區塊的間距 */
 }
-/.education {
+.education {
   margin-top: 20px;
 }
 
@@ -65,25 +65,22 @@
   margin-bottom: 15px;
 }
 
-.education-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.education-list li {
+.education-item {
   display: flex;
+  align-items: flex-start; /* 時間和描述頂部對齊 */
   margin-bottom: 15px;
 }
 
 .year {
-  width: 100px; /* 控制年份欄的寬度 */
+  width: 80px; /* 固定左側欄位寬度 */
   font-weight: bold;
-  flex-shrink: 0;
+  text-align: right; /* 時間靠右對齊 */
+  margin-right: 15px;
+  line-height: 1.5;
 }
 
 .details {
-  flex-grow: 1;
+  flex-grow: 1; /* 右側描述填滿剩餘空間 */
   line-height: 1.5;
 }
 
@@ -91,6 +88,7 @@
   font-weight: bold;
   display: block;
 }
+
 
 
 
