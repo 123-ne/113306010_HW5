@@ -53,23 +53,45 @@
   padding-bottom: 20px; /* 與內容間距 */
   margin-bottom: 20px; /* 與下一個區塊的間距 */
 }
-/* Education Section */
+/.education {
+  margin-top: 20px;
+}
+
+.education h2 {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
 .education-list {
-  list-style: none; /* 移除項目前的圓點 */
-  padding: 0; /* 移除內邊距 */
-  margin: 0; /* 移除外邊距 */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .education-list li {
   display: flex;
-  justify-content: space-between; /* 讓年份和描述分開對齊 */
-  margin-bottom: 10px; /* 增加每項的間距 */
+  margin-bottom: 15px;
 }
 
-.education-list .year {
-  font-weight: bold; /* 讓年份部分更突出 */
-  margin-right: 10px; /* 增加年份與描述間的間距 */
+.year {
+  width: 100px; /* 控制年份欄的寬度 */
+  font-weight: bold;
+  flex-shrink: 0;
 }
+
+.details {
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+.details strong {
+  font-weight: bold;
+  display: block;
+}
+
 
 
 .nccu-logo {
