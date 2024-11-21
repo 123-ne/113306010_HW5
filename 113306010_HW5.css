@@ -42,6 +42,24 @@
   padding: 20px;
   text-align: center; /* Center-aligns text inside text-content */
 }
+/* Education Section */
+.education-list {
+  list-style: none; /* 移除項目前的圓點 */
+  padding: 0; /* 移除內邊距 */
+  margin: 0; /* 移除外邊距 */
+}
+
+.education-list li {
+  display: flex;
+  justify-content: space-between; /* 讓年份和描述分開對齊 */
+  margin-bottom: 10px; /* 增加每項的間距 */
+}
+
+.education-list .year {
+  font-weight: bold; /* 讓年份部分更突出 */
+  margin-right: 10px; /* 增加年份與描述間的間距 */
+}
+
 
 .nccu-logo {
   width: 80px;
