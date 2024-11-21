@@ -40,10 +40,12 @@
 
 /* Text Content */
 .text-content {
-  padding: 20px 30px;
-  text-align: center;
-  gap:20px /* Center-aligns text inside text-content */
+  padding-left: 30px; /* 左側增加 30px */
+  padding-right: 10px; /* 右側也可以適度增加一點間距 */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 /* 為每個區塊添加底部邊框 */
 .education, .homework-list, .favorite-music {
