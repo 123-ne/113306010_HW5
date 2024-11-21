@@ -40,7 +40,7 @@
 
 /* Text Content */
 .text-content {
-  padding: 20px;
+  padding: 20px 30px;
   text-align: center;
   gap:20px /* Center-aligns text inside text-content */
 }
