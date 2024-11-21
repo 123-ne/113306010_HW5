@@ -20,7 +20,7 @@
 
 /* Photo Panel */
 .photo-panel {
-  height: 50%; /* Takes up 50% of the left panel */
+  height: 5%; /* Takes up 50% of the left panel */
   background-image: url('path-to-photo.jpg'); /* Replace with your photo path */
   background-size: cover;
   background-position: center;
